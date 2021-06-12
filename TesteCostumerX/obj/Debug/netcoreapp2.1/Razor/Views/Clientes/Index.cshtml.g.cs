@@ -66,7 +66,7 @@ using TesteCostumerX.Models;
             WriteLiteral("\r\n<h2 style=\"text-align:center;\">Clientes</h2>\r\n\r\n<h4>\r\n    ");
             EndContext();
             BeginContext(169, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "84fea330d42d46fb82a54dbcedf9ef5e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c2d0e74a503c4c31bfa73e152e5285fe", async() => {
                 BeginContext(192, 17, true);
                 WriteLiteral("Cadastrar Cliente");
                 EndContext();
@@ -139,7 +139,7 @@ using TesteCostumerX.Models;
             WriteLiteral("\r\n            </td>\r\n            <td style=\"border: none; text-align: end\">\r\n                ");
             EndContext();
             BeginContext(1076, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "552a1ac4c9d5463fbb68268e0d06d576", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f6c0e030396e4ec8b6d297712ed186b4", async() => {
                 BeginContext(1129, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -174,7 +174,7 @@ using TesteCostumerX.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1159, 70, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f49653b63d0497087af2f5e1af30896", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f099f258274a42b683d65f477485e20d", async() => {
                 BeginContext(1215, 10, true);
                 WriteLiteral("Visualizar");
                 EndContext();
@@ -209,7 +209,7 @@ using TesteCostumerX.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1249, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1f41fee61174449f92c5f08383e06d09", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c895ba9423b74f149190dacf58f87410", async() => {
                 BeginContext(1304, 7, true);
                 WriteLiteral("Excluir");
                 EndContext();

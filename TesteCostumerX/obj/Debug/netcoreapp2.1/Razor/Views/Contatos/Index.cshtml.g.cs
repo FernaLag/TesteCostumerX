@@ -66,7 +66,7 @@ using TesteCostumerX.Models;
             WriteLiteral("\r\n<div style=\"text-align:center;\"><h2>Contatos</h2></div>\r\n\r\n<h4>\r\n    ");
             EndContext();
             BeginContext(180, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4f57eb3606cf4a58b8d86d89fadc6c34", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "548fee215493465ebf7b1ff78bc34abf", async() => {
                 BeginContext(203, 17, true);
                 WriteLiteral("Cadastrar Contato");
                 EndContext();
@@ -149,7 +149,7 @@ using TesteCostumerX.Models;
             WriteLiteral("\r\n            </td>\r\n            <td style=\"border: none; text-align: end\">\r\n                ");
             EndContext();
             BeginContext(1263, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ecbb0f477bbb46b2bffa92643530ed8d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "345bb7f12ec943258f7a42d5c71fa2b1", async() => {
                 BeginContext(1316, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -184,7 +184,7 @@ using TesteCostumerX.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1346, 70, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "23a7fcb3c046438fa37583722ad36218", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6def4dc5953a4256a424f32daed15405", async() => {
                 BeginContext(1402, 10, true);
                 WriteLiteral("Visualizar");
                 EndContext();
@@ -219,7 +219,7 @@ using TesteCostumerX.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1436, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b3a1a50b0a4f4eaf87ce865663af3383", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3f4f6ed6fd0049b08510a765d38b610e", async() => {
                 BeginContext(1491, 7, true);
                 WriteLiteral("Excluir");
                 EndContext();

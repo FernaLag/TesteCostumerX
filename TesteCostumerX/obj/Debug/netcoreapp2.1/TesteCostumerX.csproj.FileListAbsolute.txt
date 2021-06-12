@@ -45,3 +45,4 @@ Z:\Work\Tomodachins\Desenvolvimento\TesteCosumerX\TesteCostumerX\obj\Debug\netco
 Z:\Work\Tomodachins\Desenvolvimento\TesteCosumerX\TesteCostumerX\obj\Debug\netcoreapp2.1\TesteCostumerX.pdb
 Z:\Work\Tomodachins\Desenvolvimento\TesteCosumerX\TesteCostumerX\obj\Debug\netcoreapp2.1\TesteCostumerX.genruntimeconfig.cache
 Z:\Work\Tomodachins\Desenvolvimento\TesteCosumerX\TesteCostumerX\obj\Debug\netcoreapp2.1\TesteCostumerX.csproj.CopyComplete
+Z:\Work\Tomodachins\Desenvolvimento\TesteCosumerX\TesteCostumerX\obj\Debug\netcoreapp2.1\TesteCostumerX.csproj.AssemblyReference.cache

@@ -144,7 +144,7 @@ using TesteCostumerX.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<hr />\r\n\r\n<div class=\"form-group\">\r\n    ");
             EndContext();
             BeginContext(986, 120, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "456d80887f2c40488c9904c145e40974", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c32cb355265e4d8b8216254df3ff9399", async() => {
                 BeginContext(1040, 62, true);
                 WriteLiteral("<input type=\"submit\" value=\"Editar\" class=\"btn btn-default\" />");
                 EndContext();
@@ -179,7 +179,7 @@ using TesteCostumerX.Models;
             WriteLiteral("\r\n</div>\r\n\r\n<div>\r\n    ");
             EndContext();
             BeginContext(1129, 45, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90719d207ec84d8a8a8681c7d33ba759", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7ba78671972447f398780949f59ee08e", async() => {
                 BeginContext(1151, 19, true);
                 WriteLiteral("Voltar para a Lista");
                 EndContext();
