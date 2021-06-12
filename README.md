@@ -24,3 +24,6 @@ Não adicionei mais funcionalidades na aplicação porque tive uma semana bem co
 Espero que gostem..
 
 Aguardo retorno, abraços ^^
+
+----------------------
+Ps.: Se por algum motivo não funcionar, favor entrar em contato para eu fazer Push novamente haha
