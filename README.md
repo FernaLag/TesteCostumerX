@@ -19,7 +19,8 @@ https://www.learnentityframeworkcore.com/migrations
 
 >Observações
 
-Não adicionei mais funcionalidades na aplicação porque tive uma semana bem corrida, e preferi deixar ela funcional e fluido com o tempo que tive..
+Não adicionei mais funcionalidades na aplicação porque tive uma semana bem corrida, e preferi deixar funcional e fluido com o tempo que tive.
+
 Espero que gostem..
 
 Aguardo retorno, abraços ^^
