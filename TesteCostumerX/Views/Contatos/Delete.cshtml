@@ -1,0 +1,42 @@
+﻿@model TesteCostumerX.Models.Contato
+
+@{
+    ViewData["Title"] = "Excluir";
+}
+
+<h2>Excluir</h2>
+
+<h3>Está certo de que quer excluir esse Contato?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NM_Contato)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NM_Contato)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+    </dl>
+    <hr />
+
+    <form asp-action="Delete" class="form-group">
+        <input type="hidden" asp-for="ID_Contato" />
+        <input type="submit" value="Excluir" class="btn btn-default" />
+    </form>
+
+    <div>
+        <a asp-action="Index">Voltar para a Lista</a>
+    </div>
+</div>

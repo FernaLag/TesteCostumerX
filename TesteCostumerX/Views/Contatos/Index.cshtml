@@ -1,0 +1,47 @@
+﻿@model IEnumerable<TesteCostumerX.Models.Contato>
+
+@{
+    ViewData["Title"] = "Cadastro de Contatos";
+}
+
+<div style="text-align:center;"><h2>Contatos</h2></div>
+
+<h4>
+    <a asp-action="Create">Cadastrar Contato</a>
+</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="border: none;">Nome do Contato</th>
+            <th style="border: none;">Email</th>
+            <th style="border: none;">Telefone</th>
+            <th style="border: none;">Cliente Vinculado</th>
+            <th style="border: none; text-align:end">Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr style="border-top: 1px solid #ddd;">
+            <td style="border: none;">
+                @Html.DisplayFor(modelItem => item.NM_Contato)
+            </td>
+            <td style="border: none;">
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td style="border: none;">
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            <td style="border: none;">
+                @Html.DisplayFor(modelItem => item.Cliente.NM_Cliente)
+            </td>
+            <td style="border: none; text-align: end">
+                <a asp-action="Edit" asp-route-id="@item.ID_Contato">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.ID_Contato">Visualizar</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID_Contato">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+

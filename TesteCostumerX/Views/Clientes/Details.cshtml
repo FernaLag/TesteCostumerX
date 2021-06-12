@@ -1,0 +1,73 @@
+﻿@model TesteCostumerX.Models.Cliente
+
+@{
+    ViewData["Title"] = "Visualizar";
+    var Tem_Contatos = Model.Contatos_Cliente.Count > 0;
+}
+
+<h2>Visualizar</h2>
+
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NM_Cliente)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NM_Cliente)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+    </dl>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DT_Cad)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DT_Cad)
+        </dd>
+    </dl>
+    @if (Tem_Contatos)
+    {
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Contatos_Cliente)
+            </dt>
+            @foreach (var item in Model.Contatos_Cliente)
+            {
+                <dd>
+                    @Html.DisplayFor(model => item.NM_Contato)
+                </dd>
+                <dd>
+                    @Html.DisplayFor(model => item.Email)
+                </dd>
+                <dd>
+                    @Html.DisplayFor(model => item.Telefone)
+                </dd>
+                <hr />
+            }
+        </dl>
+    }
+</div>
+
+@if (!Tem_Contatos){ <hr /> }
+
+<div class="form-group">
+    <a asp-action="Edit" asp-route-id="@Model.ID_Cliente"><input type="submit" value="Editar" class="btn btn-default" /></a>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar para a Lista</a>
+</div>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<TesteCostumerX.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Cadastro de Clientes";
+}
+
+<h2 style="text-align:center;">Clientes</h2>
+
+<h4>
+    <a asp-action="Create">Cadastrar Cliente</a>
+</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="border: none;">Nome do Cliente</th>
+            <th style="border: none;">Email</th>
+            <th style="border: none;">Telefone</th>
+            <th style="border: none; text-align:end">Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr style="border-top: 1px solid #ddd;">
+            <td style="border: none;">
+                @Html.DisplayFor(modelItem => item.NM_Cliente)
+            </td>
+            <td style="border: none;">
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td style="border: none;">
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            <td style="border: none; text-align: end">
+                <a asp-action="Edit" asp-route-id="@item.ID_Cliente">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.ID_Cliente">Visualizar</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID_Cliente">Excluir</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
