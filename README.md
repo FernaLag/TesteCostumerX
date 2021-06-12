@@ -10,7 +10,8 @@ A aplicação está bem intuitiva, então será bem fácil usá-la.
 
 > O relatório do Cliente foi feito em Tela, e pode ser observado ao clicar em "Visualizar" o Cliente no GRID da Index..
 
-> Utilizei Migrations para Estruturar as Classes, então certifique-se de utilizar os comandos "update-database" e "add-migration" ser for necessário
+> Utilizei Migrations para Estruturar as Classes, então certifique-se de utilizar os comandos "update-database" e "add-migration" ser for necessário.
+
 Segue um link com um breve tutorial de Migration:
 https://www.learnentityframeworkcore.com/migrations
 
